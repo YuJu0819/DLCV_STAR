@@ -1,0 +1,14 @@
+# Ignore the dataset folder
+# IMPORTANT: make sure that your dataset is stored in a
+# folder with the same name as the one specified below!
+
+student_data/*
+sample_submission.json
+*.pth
+*.json
+*.txt
+
+Flipped-VQA/get_optical_flow.py
+Flipped-VQA/read_flow_file.py
+Flipped-VQA/CLIP
+Flipped-VQA/data/*

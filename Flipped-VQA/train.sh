@@ -1,0 +1,17 @@
+python3 train.py \
+    --adapter_layer 24 \
+    --llama_model_path llama.pth \
+    --max_seq_len 128 \
+    --batch_size 8 \
+    --epochs 5 \
+    --warmup_epochs 2 \
+    --bias 3 \
+    --tau 50. \
+    --max_feats 10 \
+    --dataset star \
+    --blr 9e-2 \
+    --weight_decay 0.16 \
+    --output_dir ./checkpoint/star \
+    --accum_iter 4 \
+    --world_size 2 \
+    --vaq
